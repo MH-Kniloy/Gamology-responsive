@@ -1,0 +1,629 @@
+@font-face {
+  font-family: 'betterfly';
+  src: url(../font/betterfly.ttf);
+}
+
+* {
+  margin: 0 ;
+  padding: 0 ;
+  outline: 0 ;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  transition: 0.5s;
+}
+
+html h2 {
+  font-family: 'betterfly';
+}
+/* main container */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Button Part */
+.btn {
+  margin-top: 25px;
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(20, 0, 20);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* header area */
+#header {
+  background-color:black;
+  min-height: 73px;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  overflow: hidden;
+}
+ 
+/* Logo Part */
+.logo-part {
+  width: 10%;
+  float: left;   
+}
+
+.logo-part i {
+  padding-left: 28px ;
+  padding-top: 10px;
+  font-size: 30px;
+}
+.logo-part h2 {
+  font-family: monospace; 
+}
+
+/* Menu part */
+.menu-part {
+  width: 80%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* responsive navbar */
+.checkbtn {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.checkbtn:hover {
+  color: greenyellow;
+}
+#check {
+  display: none;
+}
+.menu-list li {
+  display: inline-block;
+  list-style: none;
+  padding: 0.5% 1.5%;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  margin-right: 2%;
+}
+
+.responsive-menu {
+  margin: none;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-list li:hover {
+  box-shadow: 0px 0px 10px greenyellow;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+/* Search Part */
+.search-part {
+  width: 10%;
+  float: left;
+  font-size: 30px;
+  text-align: end;
+  padding-top: 18px;
+}
+.search-part a {
+  color: white;
+}
+.search-part a:hover {
+  color: greenyellow;
+  transition: 0.1ms;
+}
+
+/* showcase area */
+#showcase-part {
+  height: 750px;
+  background-image: url(../img/witcher-showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center ;
+  color: aliceblue;
+}
+
+/* Writing Part */
+.writing-part h1 {
+  font-size: 80px;
+  padding-top: 350px;
+  color: rgb(20, 20, 20);
+  font-family: 'betterfly';
+}
+
+.writing-part p {
+  width: 400px;
+  font-size: 20px;
+  color: rgb(20, 20, 20);
+}
+.btn:hover {
+  margin-top: 25px;
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: orangered;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 0px 0px 10px black;
+}
+
+/* game tour part */
+#game-tour {
+  background:linear-gradient(rgb(20, 6, 20), black);
+  height: 900px;
+  color: aliceblue;
+  text-align: center;
+}
+
+#game-tour img {
+  width: 100%;
+}
+
+.game-writing-part h2 {
+  padding-top: 30px;
+  font-size: 45px;
+  color: greenyellow;
+}
+.game-writing-part p {
+  margin: 20px 0px;
+  font-size: 20px;
+}
+ 
+/* Rockstar */
+.rockstar {
+  width: 30%;
+  float: left;
+  margin-right: 4.5%;
+  background-color: black;
+  color: white;
+}
+
+.rockstar:hover {
+  box-shadow: 0px 0px 30px greenyellow;
+}
+
+.rockstar h2 {
+  font-size: 30px;
+}
+.rockstar p {
+  font-size: 20px;
+}
+
+/* Activision */
+.activision {
+  width: 30%;
+  float: left;
+  margin-right: 4.5%;
+  background-color: black;
+  color: white;
+}
+
+.activision:hover {
+  box-shadow: 0px 0px 30px greenyellow;
+}
+
+.activision h2 {
+  font-size: 30px;
+}
+.activision p {
+  font-size: 20px;
+}
+
+/* Electronic Arts */
+.electronic-arts {
+  width: 30%;
+  float: left;
+  background-color: black;
+  color: white;
+}
+
+.electronic-arts:hover {
+  box-shadow: 0px 0px 30px greenyellow;
+}
+
+.electronic-arts h2 {
+  font-size: 30px;
+  
+}
+.electronic-arts p {
+  font-size: 20px;
+}
+
+/* Pricing Part */
+#pricing-part {
+  text-align: center;
+  height: 770px;
+  background-color: black;
+  color: aliceblue;
+}
+#pricing-part i {
+  color: greenyellow;
+}
+
+/* Price Writing Part */
+.price-writing-part h2 {
+  font-size: 50px;
+  padding: 40px 0px;
+  color: greenyellow
+}
+.price-writing-part p {
+  font-size: 20px;
+  padding-bottom: 45px;
+}
+
+/* Pricing One */
+.price-one {
+  width: 30%;
+  float: left;
+  margin-right: 4.5%;
+  background:linear-gradient(rgb(20, 6, 20), black);
+  color: white;
+  height: 430px;
+}
+.price-one:hover {
+  box-shadow: 0px 0px 20px greenyellow;
+  transition: none;
+}
+.price-one i {
+  font-size: 100px;
+  padding: 20px 0px;
+}
+.price-one h2 {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.price-one p {
+  padding: 5px 0px;
+}
+
+/* Price Two */
+.price-two {
+  width: 30%;
+  float: left;
+  margin-right: 4.5%;
+  background:linear-gradient(rgb(20, 6, 20), black);
+  color: white;
+  height: 430px;
+}
+
+.price-two:hover { 
+ box-shadow: 0px 0px 20px greenyellow;
+ transition: none;
+}
+
+.price-two i {
+  font-size: 100px;
+  padding: 20px 0px;
+}
+.price-two h2 {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.price-two p {
+  padding: 5px 0px;
+}
+
+/* Price Three */
+.price-three {
+  width: 30%;
+  float: left;
+  background:linear-gradient(rgb(20, 6, 20), black);
+  color: white;
+  height: 430px;
+}
+
+.price-three:hover {
+  box-shadow: 0px 0px 20px greenyellow;
+  transition: none;
+}
+
+.price-three i {
+  font-size: 100px;
+  padding: 20px 0px;
+}
+.price-three h2 {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+.price-three p {
+  padding: 5px 0px;
+}
+
+/* About Part */
+#about-row {
+  color: aliceblue;
+}
+
+/* About Image Part */
+.image-part {
+  background-image: url(../img/far-cry-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+  width: 50%;
+  float: left;
+  height: 900px;
+  
+}
+.image-part-two {
+  background-image: url(../img/wallpaper_red_dead_redemption_2_04_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto;
+  width: 50%;
+  float: left;
+  height: 900px;
+}
+
+/* About Writing Part */
+.about-writing-part {
+  width: 50%;
+  float: left;
+  height: 900px;
+  background:linear-gradient(rgb(20, 6, 20), black);
+}
+
+.about-writing-part h2 {
+  font-size: 60px;
+  padding-top: 300px;
+  padding-bottom: 40px;
+  color: greenyellow
+}
+.about-writing-part p {
+  font-size: 25px;
+  margin-bottom: 40px; 
+
+}
+/* button Part */
+.read-more {
+  margin-top: 25px;
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 18px;
+}
+.read-more:hover {
+  margin-top: 25px;
+  padding: 15px 70px;
+  border-radius: 5px;
+  border: none;
+  background-color: greenyellow;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Statistics Part */
+#statistics {
+  background:linear-gradient(black, rgb(107, 4, 4));
+  width:100%;
+  height: 800px;
+  position: static;
+  text-align: center;
+  color: aliceblue;
+}
+
+#statistics h2 {
+  font-size: 60px;
+  padding: 100px 0px 30px 0px;
+  color: greenyellow
+}
+
+#statistics p {
+  font-size: 40px;
+  font-family: 'betterfly';
+}
+
+.stat-title p {
+  margin-bottom: 80px;
+  width: 50%;
+  margin: auto;
+}
+
+.stat-one {
+  width: 33%;
+  float: left;
+}
+.stat-two {
+  width: 33%;
+  float: left;
+}
+.stat-three {
+  width: 33%;
+  float: left;
+}
+
+/* Introduction Part */
+#intro {
+  height: 750px;
+  background-image: url(../img/wallpapersden.com_the-witcher-3-geralt-of-rivia_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center ;
+  color: aliceblue;
+  text-align: center;
+  position: relative; 
+}
+
+.intro-writing {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+.intro-writing p {
+width: 80%;
+font-size: 40px;
+font-family: 'betterfly';
+}
+.intro-writing h2 {
+margin-top: 50px;
+margin-right: 300px;
+font-size: 50px;
+}
+
+/* Subscribe Part */
+#subscribe {
+  height: 550px;
+  background:linear-gradient(rgb(20, 6, 20), black);
+  color: aliceblue;
+  text-align: center; 
+}
+
+.sub-writing p {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: 'betterfly';
+}
+.sub-writing h2 {
+  padding-top: 80px;
+  font-size: 50px;
+}
+.sub-email input[type=email] {
+   border: none;
+   width: 20%;
+   padding: 13px 20px;
+   margin-top: 50px;
+   margin-right: 0;
+}
+
+.sub-email input[type=submit] {
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  padding:10.5px 20px;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 0;
+}
+.sub-email input[type=submit]:hover {
+  background-color: black;
+  border: none;
+  color: white;
+  padding:10.5px 70px;
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-shadow: 2px 2px 5px white;
+}
+
+/*Main Footer Area */
+.main-footer {
+  height: 400px;
+  background-color: black;
+  color: aliceblue;
+}
+.main-footer h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#icon-part {
+ width: 50%;
+ float: left;
+ margin-top: 110px;
+}
+
+#icon-part p {
+ width: 50%;
+ font-size: 20px;
+ margin: 30px 0px;
+}
+
+#icon-part h2 { 
+ font-size: 30px;
+}
+
+#icon-part i { 
+ font-size: 40px;
+ color: orangered;
+ background-color: black;
+ margin-right: 20px;
+ padding: 10px;
+}
+
+#icon-part i:hover { 
+  font-size: 40px;
+  color: black;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  margin-right: 20px;
+  transition: 0.5s;
+ }
+
+.service-part {
+  width: 50%;
+  float: left;
+  margin-top: 100px;
+}
+
+.service-part h2 {
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.service-part a {
+  text-decoration: none;
+  color: aliceblue;
+  display: block;
+  margin: 10px 0px;
+  font-size: 20px; 
+}
+.service-part a:hover {
+  text-decoration: none;
+  color: orangered;
+  display: block;
+  margin: 10px 0px;
+  font-size: 20px; 
+}
+
+.about {
+  width: 33%;
+  float: left;
+}
+.service {
+  width: 33%;
+  float: left;
+}
+.other{
+  width: 34%;
+  float: left; 
+}
+/* Copyright Footer */
+footer {
+  text-align: center;
+  background:linear-gradient(black, rgb(20, 6, 20));
+  color: aliceblue;
+  padding: 20px;
+  
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span {
+  font-family: 'betterfly';
+  color: greenyellow;
+  font-size: 25px;
+  text-shadow: 3px 3px 10px white;
+}
+

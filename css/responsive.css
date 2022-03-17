@@ -1,0 +1,359 @@
+/* Responsive for 1500px  */
+@media (max-width: 1500px) {
+  
+  .main-footer {
+      height:430px;  
+  }
+  .intro-writing {
+  top: 100px; 
+}
+#statistics {
+  height: 850px
+}
+.writing-part h1 {
+  font-size: 80px;
+  padding-top: 20%;
+}  
+  
+}
+
+/* Responsive for 1200px  */
+@media (max-width: 1200px) {
+  
+  #statistics h2 {
+    padding: 50px 0px 30px 0px
+  }
+  .intro-writing h2 {
+   margin-right: 200px;
+ }
+  #icon-part i { 
+  font-size: 30px;
+  margin-right: 15px;
+ }
+   #icon-part i:hover { 
+  font-size: 30px;
+  margin-right: 15px;
+ }
+  #icon-part p {
+  margin: 30px 0px 10px 0px;
+ }
+  
+}
+
+/* Responsive for 1050px  */
+@media (max-width: 1050px) {
+  
+  .sub-writing p {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;  
+  }
+  #icon-part {
+    margin: 70px 0 0 0
+  }
+ #icon-part p {
+ width: 80%;
+ font-size: 20px;
+ margin: 30px 0px;
+}
+#icon-part i { 
+ font-size: 32px;
+ margin-right: 8px;
+ padding: 9px;
+}
+#icon-part i:hover { 
+  font-size: 32px;
+  padding: 9px;
+  margin-right: 8px;
+ }
+ .service-part {
+  margin-top: 70px;
+}
+
+}
+
+/* Responsive for 800px  */
+@media (max-width: 800px) {
+  .checkbtn {
+   display: block;
+  }  
+  .menu-part ul {
+   position: fixed;
+   width: 100%;     
+   height: 100vh;
+   background-color: black;
+  color: aliceblue;
+  top: 80px;
+  left: -100%;
+  text-align: center;
+  transition: all .5s;
+  }
+  #check:checked ~ ul {
+  left: 0;
+  }
+  .menu-part ul li {
+  display: block;
+  margin: 50px 0;
+  line-height: 30px;
+  }
+  #game-tour {
+  background:linear-gradient(rgb(20, 6, 20), black);
+  height: 2600px;
+  color: aliceblue;
+  text-align: center;
+}    
+   .rockstar {
+  width: 80%;
+  float: none;
+  margin: auto;
+  margin-top: 80px
+}
+ .activision {
+  width: 80%;
+  float: none;
+  margin: auto;
+  margin-top: 90px
+}
+  .electronic-arts {
+  width: 80%;
+  float: none;
+  margin: auto;
+  margin-top: 80px
+}
+  .price-three p {
+   padding: 0 0 32px
+  }
+  .image-part {
+  width: 100%;
+  float: none;
+  height: 900px;
+}
+  .image-part-two {
+  width: 100%;
+  float: none;
+  height: 900px; 
+}
+ .about-writing-part {
+  width: 100%;
+  float: none;
+ }
+ .stat-title p {
+  margin-bottom: 0px;
+  width: 100%;
+  margin: auto;
+}
+ .intro-writing {
+  position: static;
+  text-align: center
+ }
+  .intro-writing p {
+  width: 100%;
+  padding-top: 50px;
+}
+  .intro-writing h2 {
+  margin-top: 80px;
+  margin-right: 0px;
+  font-size: 50px;
+}
+ .sub-writing p {
+  width: 100%; 
+}
+ .sub-email input[type=email] {
+   width: 50%; 
+}
+ #icon-part p {
+ width: 90%;
+ font-size: 20px;
+ margin: 30px 0px;
+}
+#icon-part i { 
+ font-size: 30px;
+ margin-right: 10px;
+ padding: 8px;
+}
+#icon-part i:hover { 
+  font-size: 30px;
+  padding: 8px;
+  margin-right: 10px;
+ }
+ 
+}
+
+/* Responsive for 650px  */
+@media (max-width: 650px) {
+  .writing-part h1 {
+  font-size: 60px;
+  padding-top: 100px;
+}
+.writing-part p {
+  width: 400px;
+  font-size: 20px;
+  margin: 15px 0;
+}
+ #game-tour {
+  height:2350px
+ }
+ #pricing-part {
+  height: 2000px;
+ }
+.price-one {
+  width: 80%;
+  float: none;
+  margin:auto;
+  margin-top: 50px
+}
+ .price-two {
+  width: 80%;
+  float: none;
+  margin:auto;
+  margin-top: 90px
+}
+ .price-three {
+  width: 80%;
+  float: none;
+  margin:auto;
+  margin-top: 90px
+}
+.main-footer {
+  height: 650px;
+} 
+ #icon-part {
+ width: 100%;
+ float: none;
+ margin:auto
+}
+  #icon-part i {
+   margin: 25px 20px 0; 
+}
+ .service-part {
+  width: 90%;
+  float: none;
+  padding-top: 60px;
+  margin:auto;
+ }
+  .about {
+   padding-left: 51px
+  }
+ .service {
+  padding-left: 40px 
+ }
+ .other {
+  padding-left: 60px 
+ }
+ 
+}
+
+/* Responsive for 480px  */
+@media (max-width: 480px) {
+ .writing-part h1 {
+  font-size: 50px
+ }
+ #game-tour {
+  height: 2050px
+ }
+ .game-writing-part h2 {
+  font-size: 30px;
+}
+ .price-writing-part h2 {
+  font-size: 35px
+ }
+ .about-writing-part h2 {
+  font-size: 40px;
+  padding-top: 80px 
+}
+ .about-writing-part {
+  height: 600px
+ }
+ #statistics {
+  height: 620px
+ }
+ #statistics h2 {
+  font-size: 40px;
+  padding: 70px 0px 30px 0px; 
+}
+#statistics p {
+  font-size: 25px;  
+}
+ .intro-writing p {
+ width: 100%;
+ font-size: 25px;
+ padding: 100px 0 0 0
+ }
+.intro-writing h2 {
+ margin-top: 50px;
+ font-size: 40px;
+ }
+  .sub-writing p {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 25px; 
+ }
+ .sub-writing h2 {
+  padding-top: 50px;
+  font-size: 40px;
+ }
+ .main-footer {
+  height: 700px
+ }
+ #icon-part {
+  padding: 30px 0 0 0 
+ }
+ #icon-part i { 
+  font-size: 20px;
+  margin-right: 0px;
+  padding: 8px;
+}
+#icon-part i:hover { 
+  font-size: 20px;
+  padding: 8px;
+  margin-right: 0px;
+ }
+ .service-part h2 {
+  font-size: 22px
+ }
+ .service-part a {
+  font-size: 16px
+ }
+ .about {
+  padding-left: 0px
+ }
+ .service {
+  padding-left: 15px
+ }
+ .other {
+  padding-left: 25px
+ }
+ 
+}
+
+/* Responsive for 400px  */
+@media (max-width: 400px) {
+  
+  .writing-part p {
+  width: 80% ;
+  font-size: 20px; 
+}
+ #statistics h2 {
+  font-size: 30px;
+  padding: 50px 0px 30px 0px; 
+}
+ #subscribe {
+  height: 650px
+ }
+ .main-footer {
+  height: 800px
+}
+ #icon-part i { 
+ font-size: 17px;
+ margin-right: 0px;
+ padding: 7px;
+}
+#icon-part i:hover { 
+  font-size: 17px;
+  padding: 7px;
+  margin-right: 0px;
+ }
+ 
+}
